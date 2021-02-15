@@ -1,0 +1,86 @@
+/* import font dari eksternal css */
+@font-face {
+  font-family: "plus-jakarta-reguler";
+  src: url("./webfonts/PlusJakartaSans-Regular.woff");
+}
+
+@font-face {
+  font-family: "plus-jakarta-bold";
+  src: url("./webfonts/PlusJakartaSans-Bold.woff");
+}
+
+/* import font roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* end */
+
+/* Dom */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(13, 14, 16, 1);
+}
+/* end */
+
+/* universal */
+.margin20px {
+  margin: auto 20px;
+}
+.marginleft20px {
+  margin-left: 20px;
+}
+.marginright20px {
+  margin-right: 20px;
+}
+/* end */
+
+/* navbar */
+nav {
+  height: 80px;
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: rgba(13, 14, 16, 1);
+}
+
+/* mengganti warna menu - navbar */
+.navbar-custom .navbar-nav .nav-link {
+  font-family: "plus-jakarta-reguler", sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* mengganti warna saat menu active dan hover - navbar*/
+.navbar-custom .navbar-nav .nav-link.active,
+.navbar-custom .navbar-nav .nav-link:hover {
+  font-family: "plus-jakarta-bold", sans-serif;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.font-roboto-logo {
+  font-family: "plus-jakarta-reguler", sans-serif;
+  font-size: 21.33px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: rgba(255, 255, 255, 1);
+}
+/* end */
+
+
+
+
+/* media query responsive */
+@media (max-width: 575.98px) {
+  .navbar-custom .navbar-nav a {
+    margin: 0;
+  }
+}
