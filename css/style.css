@@ -25,7 +25,7 @@
 /* universal */
 /* .container {
   /* border: 1px solid yellow; */
-} */
+
 
 .marginleft20px {
   margin-left: 20px;
@@ -48,7 +48,13 @@ nav {
 .navbar-custom {
   background-color: rgba(13, 14, 16, 1);
 }
-
+.font-custom {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 21.33px;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
 /* mengganti warna menu - navbar */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-brand:hover {
@@ -137,7 +143,7 @@ section img {
   font-family: "plus-jakarta-reguler", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 28.43px;
+  font-size: 21.33px;
   text-align: center;
   color: #ffffff;
 }
@@ -169,7 +175,7 @@ section img {
     margin: 0;
     /* border: 1px solid red; */
     padding-top: 10px;
-    font-family: "plus-jakarta-bold";
+    font-family: "plus-jakarta-bold", sans-serif;
     font-style: normal;
     /* font-weight: bold; */
     font-size: 37.8975px;
